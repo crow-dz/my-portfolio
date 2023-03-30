@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Movieland",
+    "image": "./projectImages/movieland.png",
+    "description": " Movieland is a mobile app that lets users search for and discover information about movies, including details such as synopsis, release date, rating, cast, and crew. Users can also save movies to a favorites list for future reference. The app provides movie recommendations based on user viewing history and preferences. Overall, Movieland is a convenient and comprehensive app for movie enthusiasts.",
+    "technologies": "Flutter",
+    "github": "https://github.com/mdyeates/bike-buddy",
+    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "bgcolor": "#f37737",
+    "id": "1"
+  },
+  {
+    "title": "TODOIT",
+    "image": "./projectImages/todoit.png",
+    "technologies": "Bootstrap | HTML | CSS | Django",
+    "description": " TODOIT is a task management app built with Django. It helps users create, organize, and prioritize their tasks by setting due dates, adding notes and comments, and assigning tasks to specific categories. Users can also mark tasks as complete or incomplete, view completed tasks, and set reminders for upcoming tasks. It's great for individuals or teams who want to stay organized and on top of their tasks.",
+    "github": "/",
+    "deployed": "http://oualid.pythonanywhere.com/",
+    "bgcolor": "#29cbe0",
+    "id": "2"
+  }
+  
+]

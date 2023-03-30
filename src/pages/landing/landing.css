@@ -1,0 +1,142 @@
+/* --- MOBILE STYLES --- */
+
+.landing .name {
+  font-size: 48px;
+}
+.landing .description {
+  font-size: 26px;
+}
+
+.landingImage {
+  right: 0px;
+}
+
+/* new style */
+@keyframes animate {
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+
+  }
+  100%{
+      transform: translateY(-90vh) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+}
+
+.background_bg {
+  position: fixed;
+  width: 100vw;
+  height: 90vh;
+  top: 10vh;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #01010100;
+  overflow: hidden;
+}
+.background_bg li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+}
+
+
+
+
+.background_bg li:nth-child(0) {
+  left: 17%;
+  width: 157px;
+  height: 157px;
+  bottom: -157px;
+  animation-delay: 1s;
+}
+.background_bg li:nth-child(1) {
+  left: 18%;
+  width: 127px;
+  height: 127px;
+  bottom: -127px;
+  animation-delay: 3s;
+}
+.background_bg li:nth-child(2) {
+  left: 25%;
+  width: 147px;
+  height: 147px;
+  bottom: -147px;
+  animation-delay: 4s;
+}
+.background_bg li:nth-child(3) {
+  left: 14%;
+  width: 116px;
+  height: 116px;
+  bottom: -116px;
+  animation-delay: 6s;
+}
+.background_bg li:nth-child(4) {
+  left: 48%;
+  width: 98px;
+  height: 98px;
+  bottom: -98px;
+  animation-delay: 7s;
+}
+.background_bg li:nth-child(5) {
+  left: 67%;
+  width: 113px;
+  height: 113px;
+  bottom: -113px;
+  animation-delay: 22s;
+}
+.background_bg li:nth-child(6) {
+  left: 82%;
+  width: 177px;
+  height: 177px;
+  bottom: -177px;
+  animation-delay: 20s;
+}
+.background_bg li:nth-child(7) {
+  left: 78%;
+  width: 146px;
+  height: 146px;
+  bottom: -146px;
+  animation-delay: 26s;
+}
+/*  */
+
+
+/* .landing .socialIcons {
+  display: none;
+} */
+
+.landing .socialIcons {
+  display: flex;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media (min-width: 750px) {
+  .landing .name {
+    font-size: 70px;
+  }
+
+  .landing .description {
+    font-size: 32px;
+  }
+
+  .landingImage {
+    bottom: 0;
+    right: 80px;
+  }
+
+  .landing .socialIcons {
+    flex-direction: column;
+  }
+}
